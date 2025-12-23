@@ -12,7 +12,7 @@ A core objective of this project was to benchmark different architectural approa
 
 | Model Architecture | Approach | AUROC Score | Verdict |
 | :--- | :--- | :--- | :--- |
-| **Ganomaly** | **Generative (GAN-based):** Attempts to learn the manifold of normal data and detect outliers via reconstruction error. | **~0.40** | **Failed.** Struggles to converge on complex textures without massive datasets and hyperparameter tuning. |
+| **Ganomaly** | **Generative (GAN-based):** Attempts to learn the manifold of normal data and detect outliers via reconstruction error. | **~0.60** | **Failed.** Struggles to converge on complex textures without massive datasets and hyperparameter tuning. |
 | **PatchCore** | **Feature Embedding (Memory Bank):** Extracts features from a pre-trained ResNet backbone and compares them to a "coreset" of normal features. | **1.00** | **Superior.** Achieved perfect separation by leveraging transfer learning. |
 
 **Conclusion:** PatchCore was selected as the production model because it achieves State-of-the-Art (SOTA) performance with significantly lower training time and higher stability than GAN-based methods.
