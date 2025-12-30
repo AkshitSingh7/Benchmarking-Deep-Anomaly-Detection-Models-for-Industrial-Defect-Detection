@@ -27,7 +27,7 @@ A core objective of this project was to benchmark different architectural approa
 The codebase follows standard software engineering practices for Python projects:
 
 ```text
-industrial-anomaly-detection/
+Benchmarking-Deep-Anomaly-Detection-Models-for-Industrial-Defect-Detection/
 ├── main.py                # 🚀 Entry point: Orchestrates data loading, training, and testing
 ├── requirements.txt       # 📦 Dependency management
 ├── src/                   # 🧠 Core Logic Module
@@ -53,7 +53,7 @@ The final model was evaluated on the **MVTec AD (Bottle Category)** test set.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/AkshitSingh7/industrial-anomaly-detection.git](https://github.com/AkshitSingh7/industrial-anomaly-detection.git)
+git clone [https://github.com/AkshitSingh7/Benchmarking-Deep-Anomaly-Detection-Models-for-Industrial-Defect-Detection.git](https://github.com/AkshitSingh7/Benchmarking-Deep-Anomaly-Detection-Models-for-Industrial-Defect-Detection.git)
 cd industrial-anomaly-detection
 
 ```
