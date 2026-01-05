@@ -28,9 +28,9 @@ The codebase follows standard software engineering practices for Python projects
 
 ```text
 Benchmarking-Deep-Anomaly-Detection-Models-for-Industrial-Defect-Detection/
-├── main.py                # 🚀 Entry point: Orchestrates data loading, training, and testing
-├── requirements.txt       # 📦 Dependency management
-├── src/                   # 🧠 Core Logic Module
+├── main.py                # Entry point: Orchestrates data loading, training, and testing
+├── requirements.txt       # Dependency management
+├── src/                   # Core Logic Module
 │   ├── dataset.py         # Self-healing data ingestion pipeline (Kaggle API integration)
 │   ├── model.py           # PatchCore model definition and Trainer configuration
 │   └── visualize.py       # Computer Vision plotting logic for heatmaps
