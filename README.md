@@ -83,5 +83,3 @@ Unlike Autoencoders that try to reconstruct an image, **PatchCore** works by:
 3. **Anomaly Scoring:** When a new image arrives, it looks for the "Nearest Neighbor" in the memory bank. If the nearest neighbor is far away (in vector space), the area is flagged as an anomaly.
 
 ---
-
-```
