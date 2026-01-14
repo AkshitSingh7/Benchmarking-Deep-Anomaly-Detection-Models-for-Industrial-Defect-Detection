@@ -84,8 +84,4 @@ Unlike Autoencoders that try to reconstruct an image, **PatchCore** works by:
 
 ---
 
-*Project maintained by [Akshit Singh*](https://www.google.com/search?q=https://github.com/AkshitSingh7)
-
-```
-
 ```
